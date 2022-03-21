@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- /.favicon -->
+
+    <title>Agency</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__inner row">
+                <a href="#" class="header__logo">Logo Agency</a>
+                <nav class="nav row">
+                    <ul class="header__list list__header row">
+                        <li><a class="header__link" href="#intro">Home</a></li>
+                        <li><a class="header__link" href="#about">About</a></li>
+                        <li><a class="header__link" href="#services">Services</a></li>
+                        <li><a class="header__link" href="#">Catalog</a><span class="menu__arrow arrow"></span>
+                        </li>
+                        <li><a class="header__link" href="#blog">Blog</a><span class="menu__arrow arrow"></span>
+                        </li>
+                        <li><a class="header__link" href="#contact">Contact</a></li>
+                    </ul>
+                    <div data-da="list__header,last,390" class="header__social row">
+                        <ul class="header__list row">
+                            <li>
+                                <a class="header__link" href="#">
+                                    <svg class="svg__facebook">
+                                        <use xlink:href="#facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="header__link" href="#">
+                                    <svg class="svg__twitter">
+                                        <use xlink:href="#twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="header__link" href="#">
+                                    <svg class="svg__telegram">
+                                        <use xlink:href="#telegram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+            </div>
+
+        </header>
+        <main class="main">
+            <svg class="svg-sprite" style="display: none;">
+                <symbol viewBox="0 0 612 612" id="up">
+                    <path d="M535.5,0h-459C34.253,0,0,34.253,0,76.5v459C0,577.747,34.253,612,76.5,612h459c42.247,0,76.5-34.253,76.5-76.5v-459
+            C612,34.253,577.747,0,535.5,0z M431.001,297.126c-7.478,7.478-19.584,7.478-27.043,0l-78.833-78.833V420.75
+            c0,10.557-8.568,19.125-19.125,19.125c-10.557,0-19.125-8.568-19.125-19.125V218.293l-78.814,78.814
+            c-7.478,7.478-19.584,7.478-27.043,0c-7.478-7.478-7.478-19.584,0-27.043l108.19-108.19c4.59-4.59,10.863-6.005,16.812-4.973
+            c5.929-1.052,12.221,0.383,16.811,4.973l108.19,108.19C438.46,277.542,438.46,289.648,431.001,297.126z" />
+                </symbol>
+                <symbol viewBox="0 0 24 24" id="facebook">
+                    <path
+                        d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z" />
+                </symbol>
+                <symbol viewBox="0 0 512 512" id="twitter">
+                    <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+			c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+			c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+			c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+			c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+			c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+			C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+			C480.224,136.96,497.728,118.496,512,97.248z" />
+                </symbol>
+                <symbol viewBox="0 0 24 24" id="telegram">
+                    <path
+                        d="m9.417 15.181-.397 5.584c.568 0 .814-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267 1.998-.931l3.622-16.972.001-.001c.321-1.496-.541-2.081-1.527-1.714l-21.29 8.151c-1.453.564-1.431 1.374-.247 1.741l5.443 1.693 12.643-7.911c.595-.394 1.136-.176.691.218z" />
+                </symbol>
+                <symbol viewBox="0 0 511 511.9" id="instagram">
+                    <g>
+                        <path
+                            d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0" />
+                        <path
+                            d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0" />
+                        <path
+                            d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0" />
+                    </g>
+                </symbol>
+                <symbol viewBox="0 0 512 512" id="google">
+                    <g>
+                        <g>
+                            <path
+                                d="M113.597,193.064l-87.204-50.347C9.543,176.768,0.001,215.17,0,255.998c0,40.263,9.645,78.731,26.754,113.084
+                    l86.837-50.135c-8.565-19.286-13.418-40.558-13.417-62.949C100.175,233.608,105.031,212.343,113.597,193.064z" />
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M423.925,62.768C378.935,23.634,320.145-0.043,255.823,0C167.822,0.059,89.276,44.985,43.127,113.824l87.275,50.39
+                    c28.381-38.714,74.04-64.041,125.601-64.04c37.587,0.001,72.042,13.437,98.954,35.701c6.588,5.449,16.218,4.95,22.263-1.095
+                    l47.531-47.531C431.605,80.395,431.238,69.128,423.925,62.768z" />
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M510.247,226.38c-0.997-8.475-8.122-14.89-16.653-14.89l-209.767-0.011c-9.22,0-16.696,7.475-16.696,16.696v66.727
+                    c0,9.22,7.475,16.696,16.696,16.696h117.548c-10.827,28.179-29.633,52.403-53.575,70.013l49.928,86.478
+                    c50.256-34.056,88.467-85.547,105.297-146.331C512.175,288.709,513.822,256.751,510.247,226.38z" />
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M318.93,398.381c-19.255,8.578-40.511,13.444-62.927,13.446c-51.619,0.001-97.252-25.327-125.613-64.026l-86.903,50.174
+                    C89.249,466.137,166.915,512,256.001,512c40.272,0,78.603-9.845,112.889-27.084L318.93,398.381z" />
+                        </g>
+                    </g>
+                </symbol>
+                <symbol viewBox="-21 -117 682.66672 682" id="youtube">
+                    <path
+                        d="m626.8125 64.035156c-7.375-27.417968-28.992188-49.03125-56.40625-56.414062-50.082031-13.703125-250.414062-13.703125-250.414062-13.703125s-200.324219 0-250.40625 13.183593c-26.886719 7.375-49.03125 29.519532-56.40625 56.933594-13.179688 50.078125-13.179688 153.933594-13.179688 153.933594s0 104.378906 13.179688 153.933594c7.382812 27.414062 28.992187 49.027344 56.410156 56.410156 50.605468 13.707031 250.410156 13.707031 250.410156 13.707031s200.324219 0 250.40625-13.183593c27.417969-7.378907 49.03125-28.992188 56.414062-56.40625 13.175782-50.082032 13.175782-153.933594 13.175782-153.933594s.527344-104.382813-13.183594-154.460938zm-370.601562 249.878906v-191.890624l166.585937 95.945312zm0 0" />
+                </symbol>
+            </svg>
+
+            <section class="intro " id="intro">
+                <div class="container">
+                    <div class="intro__inner row">
+                        <div class="intro__content row">
+                            <h2 class="intro__suptitle">Lorem, ipsum dolor.</h2>
+                            <h1 class="intro__title">Lorem, ipsum dolor.</h1>
+                            <p class="intro__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores,
+                                voluptatum.</p>
+                            <a class="intro__link" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <picture>
+                    <source media="(max-width: 768px)" srcset="img/intro/intro-bg.min.jpg">
+                    <img src="img/intro/intro-bg.jpg" alt="Logo Agency">
+                </picture>
+            </section>
+            <!--/.intro-->
+
+            <section class="section section-white" id="about">
+                <div class="container">
+                    <div class="section__top">
+                        <h3 class="section__suptitle">Lorem, ipsum dolor.</h3>
+                        <h2 class="section__title">Lorem, ipsum dolor.</h2>
+                        <div class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Magnam
+                                nihil</span> rerum error rem? Porro culpa veritatis fugiat nisi exercitationem omnis?
+                        </div>
+                    </div>
+                    <div class="section__content">
+                        <div class="about">
+                            <div class="about__inner row">
+                                <div class="about__item row">
+                                    <div class="about__icon icon-html">
+                                    </div>
+                                    <div class="about__content about-html">
+                                        <h4 class="about__title">HTML</h4>
+                                        <h5 class="about__subtitle">Lorem, ipsum dolor.</h5>
+                                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, fugit odio veritatis sed exercitationem quis.</p>
+                                    </div>
+                                </div>
+                                <div class="about__item row">
+                                    <div class="about__icon icon-css">
+                                    </div>
+                                    <div class="about__content about-css">
+                                        <h4 class="about__title">CSS</h4>
+                                        <h5 class="about__subtitle">Lorem, ipsum dolor.</h5>
+                                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, fugit odio veritatis sed exercitationem quis.</p>
+                                    </div>
+                                </div>
+                                <div class="about__item row">
+                                    <div class="about__icon icon-js">
+                                    </div>
+                                    <div class="about__content about-js">
+                                        <h4 class="about__title">JS</h4>
+                                        <h5 class="about__subtitle">Lorem, ipsum dolor.</h5>
+                                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, fugit odio veritatis sed exercitationem quis.</p>
+                                    </div>
+                                </div>
+                                <div class="about__item row">
+                                    <div class="about__icon icon-sass">
+                                    </div>
+                                    <div class="about__content about-sass">
+                                        <h4 class="about__title">SASS</h4>
+                                        <h5 class="about__subtitle">Lorem, ipsum dolor.</h5>
+                                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, fugit odio veritatis sed exercitationem quis.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/.about-->
+
+            <section class="section section-dark section-counter">
+                <div class="container">
+                    <div class="section__content">
+                        <div class="counter">
+                            <div id="counter" class="counter__inner row">
+                                <div class="counter__left">
+                                    <h2 class="counter__title">Our Skills</h2>
+                                    <h3 class="counter__subtitle">Lorem, ipsum dolor.</h3>
+                                    <p class="counter__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Cum ratione perferendis deserunt excepturi ex quo odio quis natus repellat rem?
+                                    </p>
+                                    <p class="counter__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Cum ratione perferendis deserunt excepturi ex quo odio quis natus repellat rem?
+                                    </p>
+                                </div>
+                                <div class="counter__right row">
+                                    <div class="counter__item">
+                                        <div class="counter__name">HTML</div>
+                                        <span class="counter__lock">
+                                            <span class="counter__move"></span>
+                                            <span data-num="90" class="counter__num">0</span>
+                                        </span>
+                                    </div>
+                                    <div class="counter__item">
+                                        <div class="counter__name">CSS</div>
+                                        <span class="counter__lock">
+                                            <span class="counter__move counter__move2"></span>
+                                            <span data-num="80" class="counter__num">0</span>
+                                        </span>
+                                    </div>
+                                    <div class="counter__item">
+                                        <div class="counter__name">JS</div>
+                                        <span class="counter__lock">
+                                            <span class="counter__move counter__move3"></span>
+                                            <span data-num="60" class="counter__num">0</span>
+                                        </span>
+                                    </div>
+                                    <div class="counter__item">
+                                        <div class="counter__name">SASS</div>
+                                        <span class="counter__lock">
+                                            <span class="counter__move counter__move4"></span>
+                                            <span data-num="80" class="counter__num">0</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/.counter-->
+
+            <section class="section section-white">
+                <div class="container">
+                    <div class="section__top">
+                        <h2 class="section__title"><span>Our</span> Team</h2>
+                        <div class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Magnam
+                                nihil</span> rerum error rem? Porro culpa veritatis fugiat nisi exercitationem omnis?
+                        </div>
+                    </div>
+                    <div class="section__content">
+                        <div class="team__slider">
+                            <div class="team__slider-item row">
+                                <div class="team__slider-photo-wrap">
+                                    <div class="team__slider-photo">
+                                        <div class="team__social row">
+                                            <ul class="row">
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__facebook">
+                                                            <use xlink:href="#facebook"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__twitter">
+                                                            <use xlink:href="#twitter"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__telegram">
+                                                            <use xlink:href="#telegram"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__instagram">
+                                                            <use xlink:href="#instagram"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <picture>
+                                            <source media="(max-width: 768px)" srcset="img/team/1.jpg">
+                                            <img src="img/team/1.jpg" alt="Teamate">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="team__slider-item-content">
+                                    <div class="team__slider-item-prof">Web Developer</div>
+                                    <div class="team__slider-item-name">John Smith</div>
+                                    <p class="team__slider-item-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Quam labore, mollitia vitae qui aut rem est. Nulla maxime ipsa debitis!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="team__slider-item row">
+                                <div class="team__slider-photo-wrap">
+                                    <div class="team__slider-photo">
+                                        <div class="team__social row">
+                                            <ul class="row">
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__facebook">
+                                                            <use xlink:href="#facebook"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__twitter">
+                                                            <use xlink:href="#twitter"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__telegram">
+                                                            <use xlink:href="#telegram"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__instagram">
+                                                            <use xlink:href="#instagram"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <picture>
+                                            <source media="(max-width: 768px)" srcset="img/team/2.jpg">
+                                            <img src="img/team/2.jpg" alt="Teamate">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="team__slider-item-content">
+                                    <div class="team__slider-item-prof">Web Developer</div>
+                                    <div class="team__slider-item-name">John Smith</div>
+                                    <p class="team__slider-item-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Quam labore, mollitia vitae qui aut rem est. Nulla maxime ipsa debitis!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="team__slider-item row">
+                                <div class="team__slider-photo-wrap">
+                                    <div class="team__slider-photo">
+                                        <div class="team__social row">
+                                            <ul class="row">
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__facebook">
+                                                            <use xlink:href="#facebook"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__twitter">
+                                                            <use xlink:href="#twitter"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__telegram">
+                                                            <use xlink:href="#telegram"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__instagram">
+                                                            <use xlink:href="#instagram"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <picture>
+                                            <source media="(max-width: 768px)" srcset="img/team/3.jpg">
+                                            <img src="img/team/3.jpg" alt="Teamate">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="team__slider-item-content">
+                                    <div class="team__slider-item-prof">Web Developer</div>
+                                    <div class="team__slider-item-name">John Smith</div>
+                                    <p class="team__slider-item-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Quam labore, mollitia vitae qui aut rem est. Nulla maxime ipsa debitis!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="team__slider-item row">
+                                <div class="team__slider-photo-wrap">
+                                    <div class="team__slider-photo">
+                                        <div class="team__social row">
+                                            <ul class="row">
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__facebook">
+                                                            <use xlink:href="#facebook"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__twitter">
+                                                            <use xlink:href="#twitter"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__telegram">
+                                                            <use xlink:href="#telegram"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__instagram">
+                                                            <use xlink:href="#instagram"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <picture>
+                                            <source media="(max-width: 768px)" srcset="img/team/4.jpg">
+                                            <img src="img/team/4.jpg" alt="Teamate">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="team__slider-item-content">
+                                    <div class="team__slider-item-prof">Web Developer</div>
+                                    <div class="team__slider-item-name">John Smith</div>
+                                    <p class="team__slider-item-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Quam labore, mollitia vitae qui aut rem est. Nulla maxime ipsa debitis!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="team__slider-item row">
+                                <div class="team__slider-photo-wrap">
+                                    <div class="team__slider-photo">
+                                        <div class="team__social row">
+                                            <ul class="row">
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__facebook">
+                                                            <use xlink:href="#facebook"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__twitter">
+                                                            <use xlink:href="#twitter"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__telegram">
+                                                            <use xlink:href="#telegram"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__instagram">
+                                                            <use xlink:href="#instagram"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <picture>
+                                            <source media="(max-width: 768px)" srcset="img/team/5.jpg">
+                                            <img src="img/team/5.jpg" alt="Teamate">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="team__slider-item-content">
+                                    <div class="team__slider-item-prof">Web Developer</div>
+                                    <div class="team__slider-item-name">John Smith</div>
+                                    <p class="team__slider-item-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Quam labore, mollitia vitae qui aut rem est. Nulla maxime ipsa debitis!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="team__slider-item row">
+                                <div class="team__slider-photo-wrap">
+                                    <div class="team__slider-photo">
+                                        <div class="team__social row">
+                                            <ul class="row">
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__facebook">
+                                                            <use xlink:href="#facebook"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__twitter">
+                                                            <use xlink:href="#twitter"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__telegram">
+                                                            <use xlink:href="#telegram"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <svg class="svg__instagram">
+                                                            <use xlink:href="#instagram"></use>
+                                                        </svg>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                        <picture>
+                                            <source media="(max-width: 768px)" srcset="img/team/6.jpg">
+                                            <img src="img/team/6.jpg" alt="Teamate">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="team__slider-item-content">
+                                    <div class="team__slider-item-prof">Web Developer</div>
+                                    <div class="team__slider-item-name">John Smith</div>
+                                    <p class="team__slider-item-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                        elit. Quam labore, mollitia vitae qui aut rem est. Nulla maxime ipsa debitis!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/.team-->
+
+            <section class="section section-creation section-light" id="services">
+                <picture>
+                    <source media="(max-width: 768px)" srcset="img/creation/creation-bg.min.jpg">
+                    <img src="img/creation/creation-bg.jpg" alt="Logo Agency">
+                </picture>
+                <div class="container">
+                    <div class="section__content">
+                        <div class="creation row">
+                            <div class="creation__left">
+                                <h2 class="creation__title">Lorem, ipsum.</h2>
+                                <h3 class="creation__subtitle">Lorem, ipsum dolor.</h3>
+                                <p class="creation__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
+                                    quo sunt delectus, laborum sit soluta animi, impedit, et provident quis aut nihil
+                                    expedita atque ab. Temporibus provident distinctio itaque quia? Lorem ipsum, dolor
+                                    sit amet consectetur adipisicing elit. Nisi
+                                    quo sunt delectus, laborum sit soluta animi, impedit, et provident quis aut nihil
+                                    expedita atque ab. Temporibus provident distinctio itaque quia?</p>
+                                <p class="creation__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
+                                    quo sunt delectus, laborum sit soluta animi, impedit, et provident quis aut nihil
+                                    expedita atque ab. Temporibus provident distinctio itaque quia?</p>
+                            </div>
+                            <a href="#" class="creation__right"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/.creation-->
+
+            <div id="counterNum" class="counter-num">
+                <div class="counter-num__inner row">
+                    <div class="counter-num__item item__first row">
+                        <span data-num="212" class="counter__numbers">0</span>
+                        <span class="counter__name">Happy Clients</span>
+                    </div>
+                    <div class="counter-num__item item__second row">
+                        <span data-num="87" class="counter__numbers">0</span>
+                        <span class="counter__name">Happy Clients</span>
+                    </div>
+                    <div class="counter-num__item item__third row">
+                        <span data-num="600" class="counter__numbers">0</span>
+                        <span class="counter__name">Happy Clients</span>
+                    </div>
+                    <div class="counter-num__item item__four row">
+                        <span data-num="912" class="counter__numbers">0</span>
+                        <span class="counter__name">Happy Clients</span>
+                    </div>
+                </div>
+            </div>
+            <!--   /.counter__num  -->
+
+            <section class="section section-dark section-skill">
+                <div class="container">
+                    <div class="section__content">
+                        <div class="skill-slider">
+                            <div class="skill-slider__item row">
+                                <h6 class="skill-slider__text">Lorem ipsum <span>Dolor Sit</span>, amet consectetur
+                                    adipisicing elit.
+                                    Sequi odit delectus, alias maxime magni itaque.</h6>
+                                <span class="skill-slider__team-name">Company Team</span>
+                            </div>
+                            <div class="skill-slider__item row">
+                                <h6 class="skill-slider__text">Lorem ipsum <span>Dolor Sit</span>, amet consectetur
+                                    adipisicing elit.
+                                    Sequi odit delectus, adipisicing elit. alias maxime magni itaque.</h6>
+                                <span class="skill-slider__team-name">Company Team</span>
+                            </div>
+                            <div class="skill-slider__item row">
+                                <h6 class="skill-slider__text">Lorem ipsum <span>Dolor Sit</span>, amet consectetur
+                                    adipisicing elit.
+                                    Sequi odit delectus, adipisicing elit.adipisicing elit. alias maxime magni itaque.
+                                </h6>
+                                <span class="skill-slider__team-name">Company Team</span>
+                            </div>
+                            <div class="skill-slider__item row">
+                                <h6 class="skill-slider__text">Lorem ipsum <span>Dolor Sit</span>, amet adipisicing
+                                    elit.adipisicing elit.adipisicing elit.adipisicing elit.adipisicing elit.
+                                    consectetur
+                                    adipisicing elit.
+                                    Sequi odit delectus, alias maxime magni itaque.</h6>
+                                <span class="skill-slider__team-name">Company Team</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/.skill-slider-->
+
+            <section class="section section-white">
+                <div class="container">
+                    <div class="section__top">
+                        <h3 class="section__suptitle">Lorem, ipsum dolor.</h3>
+                        <h2 class="section__title">Lorem, ipsum dolor.</h2>
+                        <div class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Magnam
+                                nihil</span> rerum error rem? Porro culpa veritatis fugiat nisi exercitationem omnis?
+                        </div>
+                    </div>
+                    <div class="section__content">
+                        <div class="about wedo">
+                            <div class="about__inner row">
+                                <div class="about__item row">
+                                    <div class="about__icon icon-html">
+                                    </div>
+                                    <div class="about__content about-html">
+                                        <h4 class="about__title">HTML</h4>
+                                        <h5 class="about__subtitle">Lorem, ipsum dolor.</h5>
+                                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, fugit odio veritatis sed exercitationem quis.</p>
+                                    </div>
+                                </div>
+                                <div class="about__item row">
+                                    <div class="about__icon icon-css">
+                                    </div>
+                                    <div class="about__content about-css">
+                                        <h4 class="about__title">CSS</h4>
+                                        <h5 class="about__subtitle">Lorem, ipsum dolor.</h5>
+                                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, fugit odio veritatis sed exercitationem quis.</p>
+                                    </div>
+                                </div>
+                                <div class="about__item row">
+                                    <div class="about__icon icon-js">
+                                    </div>
+                                    <div class="about__content about-js">
+                                        <h4 class="about__title">JS</h4>
+                                        <h5 class="about__subtitle">Lorem, ipsum dolor.</h5>
+                                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, fugit odio veritatis sed exercitationem quis.</p>
+                                    </div>
+                                </div>
+                                <div class="about__item row">
+                                    <div class="about__icon icon-sass">
+                                    </div>
+                                    <div class="about__content about-sass">
+                                        <h4 class="about__title">SASS</h4>
+                                        <h5 class="about__subtitle">Lorem, ipsum dolor.</h5>
+                                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, fugit odio veritatis sed exercitationem quis.</p>
+                                    </div>
+                                </div>
+                                <div class="about__item row">
+                                    <div class="about__icon icon-wordpress">
+                                    </div>
+                                    <div class="about__content about-wordpress">
+                                        <h4 class="about__title">WORDPRESS</h4>
+                                        <h5 class="about__subtitle">Lorem, ipsum dolor.</h5>
+                                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, fugit odio veritatis sed exercitationem quis.</p>
+                                    </div>
+                                </div>
+                                <div class="about__item row">
+                                    <div class="about__icon icon-react">
+                                    </div>
+                                    <div class="about__content about-react">
+                                        <h4 class="about__title">REACT</h4>
+                                        <h5 class="about__subtitle">Lorem, ipsum dolor.</h5>
+                                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Possimus, fugit odio veritatis sed exercitationem quis.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/.wedo-->
+
+            <section class="section section-light section-quickstart">
+                <div class="container">
+                    <div class="section__top">
+                        <h3 class="section__suptitle">Lorem ipsum dolor sit amet <span>Consectetur</span> adipisicing
+                            elit. Aliquam, voluptas?</h3>
+
+                        <div class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Magnam
+                                nihil</span> rerum error rem? Porro culpa veritatis fugiat nisi exercitationem omnis?
+                        </div>
+                    </div>
+                    <div class="section__content">
+                        <div class="quickstart row">
+                            <a href="#" class="link-2">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/.quickstart-->
+
+            <section class="section section-white" id="catalog">
+                <div class="container">
+                    <div class="section__top">
+                        <h3 class="section__suptitle">Lorem, ipsum dolor.</h3>
+                        <h2 class="section__title">Lorem ipsum dolor sit amet.</h2>
+                        <div class="section__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Magnam
+                                nihil</span> rerum error rem? Porro culpa veritatis fugiat nisi exercitationem omnis?
+                        </div>
+                    </div>
+                    <div class="section__content">
+                        <div class="filter">
+                            <div class="filter__nav row">
+                                <ul class="filter__navlist row">
+                                    <li><a class="filter__link first__link" href="#" data-filter="all">all</a></li>
+                                    <li><a class="filter__link" href="#" data-filter="html">html</a></li>
+                                    <li><a class="filter__link" href="#" data-filter="css">css</a></li>
+                                    <li><a class="filter__link last__link" href="#" data-filter="js">js</a></li>
+                                </ul>
+                            </div>
+                            <div class="filter__card row">
+
+                                <a href="#" class="filter__card-item" data-cat="html">
+                                    <div class="filter__card-item-wrap row">
+                                        <img src="img/filter/html1.jpg" alt="Logo Agency">
+                                        <span class="card-item-first-span">Html</span>
+                                        <span class="card-item-second-span">Brand</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="filter__card-item" data-cat="html">
+                                    <div class="filter__card-item-wrap  row">
+                                        <img src="img/filter/html2.jpg" alt="Logo Agency">
+                                        <span class="card-item-first-span">Html</span>
+                                        <span class="card-item-second-span">Brand</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="filter__card-item" data-cat="css">
+                                    <div class="filter__card-item-wrap  row">
+                                        <img src="img/filter/css1.jpg" alt="Logo Agency">
+                                        <span class="card-item-first-span">Css</span>
+                                        <span class="card-item-second-span">Brand</span>
+                                    </div>
+                                </a>
+
+
+
+                                <a href="#" class="filter__card-item" data-cat="css">
+                                    <div class="filter__card-item-wrap row">
+                                        <img src="img/filter/js1.jpg" alt="Logo Agency">
+                                        <span class="card-item-first-span">Js</span>
+                                        <span class="card-item-second-span">Brand</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="filter__card-item" data-cat="css">
+                                    <div class="filter__card-item-wrap row">
+                                        <img src="img/filter/css2.jpg" alt="Logo Agency">
+                                        <span class="card-item-first-span">Css</span>
+                                        <span class="card-item-second-span">Brand</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="filter__card-item" data-cat="css">
+                                    <div class="filter__card-item-wrap  row">
+                                        <img src="img/filter/css3.jpg" alt="">
+                                        <span class="card-item-first-span">Css</span>
+                                        <span class="card-item-second-span">Brand</span>
+                                    </div>
+                                </a>
+
+
+                                <a href="#" class="filter__card-item" data-cat="js">
+                                    <div class="filter__card-item-wrap row">
+                                        <img src="img/filter/js2.jpg" alt="Logo Agency">
+                                        <span class="card-item-first-span">Js</span>
+                                        <span class="card-item-second-span">Brand</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="filter__card-item" data-cat="js">
+                                    <div class="filter__card-item-wrap row">
+                                        <img src="img/filter/js3.jpg" alt="Logo Agency">
+                                        <span class="card-item-first-span">Js</span>
+                                        <span class="card-item-second-span">Brand</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="filter__card-item" data-cat="html">
+                                    <div class="filter__card-item-wrap  row">
+                                        <img src="img/filter/html3.jpg" alt="Logo Agency">
+                                        <span class="card-item-first-span">Html</span>
+                                        <span class="card-item-second-span">Brand</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <a class="intro__link filter__link" href="#">Viev More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/.filter-->
+
+
+            <section class="section section-dark section-reviews">
+                <div class="container">
+                    <div class="section__top">
+                        <h3 class="section__suptitle">Reviews</h3>
+                        <h2 class="section__title">People love us</h2>
+                    </div>
+                    <div class="section__content">
+                        <div class="reviews-slider">
+                            <div class="reviews-slider__item row">
+                                <p class="reviews-slider__text">Lorem ipsum, amet consectetur
+                                    adipisicing elit amet consectetur
+                                    adipisicing elit.
+                                    Sequi odit delectus, alias maxime magni <span>maxime magni</span> itaque.</p>
+                                <span class="reviews-slider__author">John Smith</span>
+                                <span class="reviews-slider__prof">Web Developer</span>
+                                <div class="empty__box"></div>
+                            </div>
+                            <div class="reviews-slider__item row">
+                                <p class="reviews-slider__text">Lorem ipsum, amet consectetur
+                                    adipisicing elit amet consectetur adipisicing elit amet consectetur
+                                    adipisicing elit.
+                                    Sequi odit delectus, alias maxime magni <span>maxime magni</span> itaque.</p>
+                                <span class="reviews-slider__author">John Smith</span>
+                                <span class="reviews-slider__prof">Web Developer</span>
+                                <div class="empty__box"></div>
+                            </div>
+                            <div class="reviews-slider__item row">
+                                <p class="reviews-slider__text">Lorem ipsum, amet consectetur
+                                    adipisicing elit amet consectetur
+                                    adipisicing elit.
+                                    Sequi odit delectus, alias maxime magni <span>maxime magni</span> itaque. Lorem
+                                    ipsum, amet consectetur
+                                    adipisicing elit amet consectetur
+                                    adipisicing elit.
+                                    Sequi odit delectus, alias maxime magni</p>
+                                <span class="reviews-slider__author">John Smith</span>
+                                <span class="reviews-slider__prof">Web Developer</span>
+                                <div class="empty__box"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/.reviews-slider-->
+
+            <div class="section section-white">
+                <div class="container">
+                    <div class="section__content">
+                        <div class="logo-slider">
+                            <div class="logo-slider__item">
+                                <img src="img/logo/android_logo_PNG26.png" alt="Logo Agency">
+                            </div>
+                            <div class="logo-slider__item">
+                                <img src="img/logo/apple_logo_PNG19682.png" alt="Logo Agency">
+                            </div>
+                            <div class="logo-slider__item">
+                                <img src="img/logo/github_PNG87.png" alt="Logo Agency">
+                            </div>
+                            <div class="logo-slider__item">
+                                <img src="img/logo/linkedIn_PNG22.png" alt="Logo Agency">
+                            </div>
+                            <div class="logo-slider__item">
+                                <img src="img/logo/photoshop_PNG46.png" alt="Logo Agency">
+                            </div>
+                            <div class="logo-slider__item">
+                                <img src="img/logo/php_PNG31.png" alt="Logo Agency">
+                            </div>
+                            <div class="logo-slider__item">
+                                <img src="img/logo/wordpress_PNG62.png" alt="Logo Agency">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.logo-slider-->
+
+            <section class="section section-dark section-follow-us" id="blog">
+                <div class="container">
+                    <div class="section__top">
+                        <h3 class="section__suptitle">Get Contacts</h3>
+                        <h2 class="section__title">Follow Us</h2>
+                        <div class="section__text">Lorem ipsum dolor sit amet.</div>
+                    </div>
+                    <div class="section__content">
+                        <div class="follow-us row">
+                            <ul class="follow-us__list row">
+                                <li>
+                                    <a href="#">
+                                        <svg class="svg__twitter">
+                                            <use xlink:href="#twitter"></use>
+                                        </svg>
+                                    </a>
+                                    <span class="follow-us__name">Twitter</span>
+                                    <span class="follow-us__description">Follow Us</span>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg class="svg__instagram">
+                                            <use xlink:href="#instagram"></use>
+                                        </svg>
+                                    </a>
+                                    <span class="follow-us__name">Instagram</span>
+                                    <span class="follow-us__description">Follow Us</span>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg class="svg__facebook">
+                                            <use xlink:href="#facebook"></use>
+                                        </svg>
+                                    </a>
+                                    <span class="follow-us__name">Facebook</span>
+                                    <span class="follow-us__description">Follow Us</span>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg class="svg__telegram">
+                                            <use xlink:href="#telegram"></use>
+                                        </svg>
+                                    </a>
+                                    <span class="follow-us__name">Telegram</span>
+                                    <span class="follow-us__description">Follow Us</span>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg class="svg__google">
+                                            <use xlink:href="#google"></use>
+                                        </svg>
+                                    </a>
+                                    <span class="follow-us__name">Google +</span>
+                                    <span class="follow-us__description">Follow Us</span>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg class="svg__youtube">
+                                            <use xlink:href="#youtube"></use>
+                                        </svg>
+                                    </a>
+                                    <span class="follow-us__name">Youtube</span>
+                                    <span class="follow-us__description">Follow Us</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/.follow-us-->
+
+            <section class="section section-white">
+                <div class="container">
+                    <div class="section__top">
+                        <h3 class="section__suptitle">Lorem, ipsum dolor.</h3>
+                        <h2 class="section__title">Our Latest Offers</h2>
+                        <div class="section__text">Lorem ipsum <span>for dolor</span> Lorem ipsum dolor sit amet.</div>
+                    </div>
+                    <div class="section__content">
+                        <div class="rates">
+                            <div class="rates__inner row">
+                                <div class="rates__item row">
+                                    <div class="rates__suptitle">Start</div>
+                                    <span class="rates__title">5</span>
+                                    <ul class="row">
+                                        <li>Free Upgrades</li>
+                                        <li>13,000 Visits</li>
+                                        <li>1GB Bandwidth</li>
+                                        <li>10GB Storage</li>
+
+                                    </ul>
+                                    <a class="link-2" href="#">Sing Up Now</a>
+                                </div>
+                                <div class="rates__item row">
+                                    <div class="rates__suptitle">Gold</div>
+                                    <span class="rates__title">28</span>
+                                    <ul class="row">
+                                        <li>100,000 Visits</li>
+                                        <li>5GB Bandwidth</li>
+                                        <li>100GB Storage</li>
+                                        <li>Free Upgrades</li>
+                                        <li>Email Support</li>
+                                        <li>24/7 Free Support</li>
+                                    </ul>
+                                    <a class="link-2" href="#">Sing Up Now</a>
+                                </div>
+                                <div class="rates__item row">
+                                    <div class="rates__suptitle">Platinum</div>
+                                    <span class="rates__title">59</span>
+                                    <ul class="row">
+                                        <li>200,000 Visits</li>
+                                        <li>50GB Bandwidth</li>
+                                        <li>1000GB Storage</li>
+                                        <li>Free Upgrades</li>
+                                        <li>Email Support</li>
+                                        <li>24/7 Free Support</li>
+                                    </ul>
+                                    <a class="link-2" href="#">Sing Up Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/.rates-->
+
+            <section class="section section-dark section-contacts" id="contact">
+                <div class="container">
+                    <div class="section__top">
+                        <h3 class="section__suptitle">Get Contacts</h3>
+                        <h2 class="section__title">Follow Us</h2>
+                        <div class="section__text">Lorem ipsum dolor sit amet.</div>
+                    </div>
+                    <div class="section__content">
+                        <div class="contacts row">
+                            <a class="contacts__tell big__link" href="tel:+380733333333">+380733333333</a>
+                            <a class="contacts__email" href="mailto:example@email.el">email@<span>gmail.com</span></a>
+                            <span class="contacts__adress">38 North West,
+                                <span>New York</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/.contacts-->
+
+            <section class="section section-white">
+                <div class="container">
+                    <div class="section__top">
+                        <h3 class="section__suptitle">Get In Touch</h3>
+                        <h2 class="section__title">Contact Us</h2>
+                        <div class="section__text">Lorem ipsum <span>for dolor</span> Lorem ipsum dolor sit amet.</div>
+                    </div>
+                    <div class="section__content">
+                        <div class="form">
+                            <form action="#" id="form" class="form__body">
+                                <div class="form__item">
+                                    <input id="formName" type="text" name="name" class="form__input _req"
+                                        placeholder="Name*">
+                                </div>
+                                <div class=" form-helper">
+                                    <div class="form__item form__item-email">
+                                        <input id="formEmail" type="text" name="email" class="form__input _req _email"
+                                            placeholder="E-mail*">
+                                    </div>
+                                    <div class="form__item form__item-phone">
+                                        <input id="formPhone" type="text" name="phone" class="form__input"
+                                            placeholder="Phone">
+                                    </div>
+                                </div>
+                                <div class="form__item">
+                                    <textarea name="message" id="formMessage" class="form__input _req"
+                                        placeholder="Message*"></textarea>
+                                </div>
+
+                                <button type="submit" class="link-2">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/.contact-us-->
+
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d539.2229870277196!2d36.231597488970905!3d49.992773485942514!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0f07183da57%3A0xcda1d17154a2b99f!2z0JjRgdGC0L7RgNC40YfQtdGB0LrQuNC5INCc0YPQt9C10Lk!5e0!3m2!1sru!2sua!4v1597329829618!5m2!1sru!2sua"
+                    width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div><!-- /.map -->
+
+            <a href="#" class="btn-up">
+                <svg class="svg__up">
+                    <use xlink:href="#up"></use>
+                </svg>
+            </a>
+
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner row">
+                    <div class="footer__logo">
+                        <a href="#">Logo Agency</a>
+                    </div>
+                    <ul class="footer__social row">
+                        <li>
+                            <a href="#">
+                                <svg class="svg__facebook">
+                                    <use xlink:href="#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg class="svg__twitter">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg class="svg__instagram">
+                                    <use xlink:href="#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg class="svg__telegram">
+                                    <use xlink:href="#telegram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg class="svg__youtube">
+                                    <use xlink:href="#youtube"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="copyright">
+                        <p>Logo Agency</p>
+                        <span>ID-Dev 2020</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>
